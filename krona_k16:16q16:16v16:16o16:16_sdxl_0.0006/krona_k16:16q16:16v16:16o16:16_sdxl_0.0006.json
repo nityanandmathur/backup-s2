@@ -1,0 +1,19 @@
+{
+    "Dataset_Name": "backpack",
+    "diffusion_version": "sdxl",
+    "adaptor": "krona",
+    "lr_scheduler": "constant",
+    "seed": 0,
+    "attn_update_unet": "kqvo",
+    "attn_update_text": null,
+    "unet_tune_mlp": false,
+    "text_tune_mlp": false,
+    "clipi": 0.8837890625,
+    "clipt": 0.27704488820043105,
+    "num_train_steps": 1000,
+    "no_of_images": 6,
+    "learning_rate": 0.0006,
+    "output_path": "/home/shyam/rank_ablation/backpack/krona_k16:16q16:16v16:16o16:16_sdxl_0.0006-",
+    "with_prior_preservation": false,
+    "what_config": "k16:16q16:16v16:16o16:16"
+}
